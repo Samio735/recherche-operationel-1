@@ -1,0 +1,409 @@
+Last login: Sun Oct  1 14:24:00 on ttys002
+admin@MacBook-Air-de-admin ~ % cd Desktop 
+admin@MacBook-Air-de-admin Desktop % cd Study 
+admin@MacBook-Air-de-admin Study % cd 1
+cd: no such file or directory: 1
+admin@MacBook-Air-de-admin Study % ls
+1cs
+Offre-de-formation-IA-DS-V27-09-21-ESTIN-avec-lettres-Copie.pdf
+admin@MacBook-Air-de-admin Study % cd 1cs 
+admin@MacBook-Air-de-admin 1cs % mkdir  RO
+admin@MacBook-Air-de-admin 1cs % cd RO
+admin@MacBook-Air-de-admin RO % mkdir TP1
+admin@MacBook-Air-de-admin RO % cd TP1 
+admin@MacBook-Air-de-admin TP1 % python
+zsh: command not found: python
+admin@MacBook-Air-de-admin TP1 % python3
+Python 3.11.5 (main, Aug 24 2023, 15:09:45) [Clang 14.0.3 (clang-1403.0.22.14.1)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+KeyboardInterrupt
+>>> 
+KeyboardInterrupt
+>>> quit
+Use quit() or Ctrl-D (i.e. EOF) to exit
+>>> quit()
+admin@MacBook-Air-de-admin TP1 % python3
+Python 3.11.5 (main, Aug 24 2023, 15:09:45) [Clang 14.0.3 (clang-1403.0.22.14.1)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 3
+3
+>>> x=2
+>>> x
+2
+>>> y=2.5
+>>> x+y
+4.5
+>>> 5%4
+1
+>>> chaine = "salut"
+>>> chaine + "python"
+'salutpython'
+>>> chaine * 3
+'salutsalutsalut'
+>>> type(x)
+<class 'int'>
+>>> type(y)
+<class 'float'>
+>>> type(chainne)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'chainne' is not defined. Did you mean: 'chaine'?
+>>> type(chaine)
+<class 'str'>
+>>> x = 20
+>>> nom = "massi"
+>>> print(nom,"a",x,"ans"
+... 
+... )
+massi a 20 ans
+>>> 
+>>> ani1 = ["girafe","tigre"]
+>>> ani2= ["signe","souris"]
+>>> ani1 + ani2
+['girafe', 'tigre', 'signe', 'souris']
+>>> ani1 * 3
+['girafe', 'tigre', 'girafe', 'tigre', 'girafe', 'tigre']
+>>> a = []
+>>> a= a + 15
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate list (not "int") to list
+>>> a= a + [15]
+>>> a
+[15]
+>>> a.append(6)
+>>> a
+[15, 6]
+>>> a = a + [-5]
+>>> a
+[15, 6, -5]
+>>> b = [1,2,3,4,5]
+>>> b.remove(5)
+>>> b
+[1, 2, 3, 4]
+>>> animaux = ["girafe","tigre","signe","souris"]
+>>> animaus[0:2]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'animaus' is not defined. Did you mean: 'animaux'?
+>>> animaux[0:2]
+['girafe', 'tigre']
+>>> animaux[0:3]
+['girafe', 'tigre', 'signe']
+>>> animaux[2:]
+['signe', 'souris']
+>>> len(animaux)
+4
+>>> list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> >>> list(range(3,16))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'listeist' is not defined
+>>> list(range(3,16))
+[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+>>> list(range(0,100,10))
+[0, 10, 20, 30, 40, 50, 60, 70, 80, 90]
+>>> for i in range(4)
+  File "<stdin>", line 1
+    for i in range(4)
+                     ^
+SyntaxError: expected ':'
+>>> for i in range(4)
+  File "<stdin>", line 1
+    for i in range(4)
+                     ^
+SyntaxError: expected ':'
+>>> for i in range(4) print(i)
+  File "<stdin>", line 1
+    for i in range(4) print(i)
+                      ^^^^^
+SyntaxError: invalid syntax
+>>> for i in range(4) 
+  File "<stdin>", line 1
+    for i in range(4) 
+                      ^
+SyntaxError: expected ':'
+>>> for i in range(4):
+... print(i)
+  File "<stdin>", line 2
+    print(i)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 1
+>>> print(i)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'i' is not defined. Did you mean: 'id'?
+>>> for i in range(4):
+...     print(i)
+... 
+0
+1
+2
+3
+>>> for animal in animaux:
+... print(animal)
+  File "<stdin>", line 2
+    print(animal)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 1
+>>> for animal in animaux:
+...     print(animal)
+... 
+girafe
+tigre
+signe
+souris
+>>> x = 4
+>>> x === 4
+  File "<stdin>", line 1
+    x === 4
+        ^
+SyntaxError: invalid syntax
+>>> x == 4
+True
+>>> x>10
+False
+>>> x<6
+True
+>>> x!=6
+True
+>>> i = 1
+>>> while i <= 4:
+...     print(i)
+...     i=i+1
+... 
+1
+2
+3
+4
+>>> x = 9
+>>> if x == 2:
+...     print("le test est vrai")
+... 
+>>> assert
+  File "<stdin>", line 1
+    assert
+          ^
+SyntaxError: invalid syntax
+>>> assert(x==2)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AssertionError
+>>> x = 2
+>>> y = 2
+>>> if x==2 and y==2 :
+...     print("le test est vrai")
+... 
+le test est vrai
+>>> if x==2:
+...     if y==2:
+...             print("le test est vrai")
+... 
+le test est vrai
+>>> for i in range(5)
+  File "<stdin>", line 1
+    for i in range(5)
+                     ^
+SyntaxError: expected ':'
+>>> for i in range(5):
+...     if i>2:
+...             Break
+...     print(i)
+... 
+0
+1
+2
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+NameError: name 'Break' is not defined
+>>> for i in range(5):
+...     if i>2:
+...             break
+...     print(i)
+... 
+0
+1
+2
+>>> for i in range(5):
+...     if i == 2
+  File "<stdin>", line 2
+    if i == 2
+             ^
+SyntaxError: expected ':'
+>>> for i in range(5):
+...     if i == 2:
+...             continue
+...     print(i)
+... 
+0
+1
+3
+4
+>>> quiot
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'quiot' is not defined. Did you mean: 'quit'?
+>>> quit()
+admin@MacBook-Air-de-admin TP1 % touch zoo.txt
+admin@MacBook-Air-de-admin TP1 % code zoo.txt
+admin@MacBook-Air-de-admin TP1 % cat zoo.txt
+Girafe
+Tigre
+Singe
+Souris%                                                                                admin@MacBook-Air-de-admin TP1 % python3
+Python 3.11.5 (main, Aug 24 2023, 15:09:45) [Clang 14.0.3 (clang-1403.0.22.14.1)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> filin = open("zoo.txt","r")
+>>> filin
+<_io.TextIOWrapper name='zoo.txt' mode='r' encoding='UTF-8'>
+>>> filin.readlines()
+['Girafe\n', 'Tigre\n', 'Singe\n', 'Souris']
+>>> filin.close()
+>>> filin.readlines()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: I/O operation on closed file.
+>>> filin = open("zoo.txt","r")
+>>> lignes = filin.readlines()
+>>> lignes
+['Girafe\n', 'Tigre\n', 'Singe\n', 'Souris']
+>>> filin.read()
+''
+>>> filin.read()
+''
+>>> for ligne in lignes:
+...
+... 
+  File "<stdin>", line 3
+    
+    ^
+IndentationError: expected an indented block after 'for' statement on line 1
+>>> for x in lignes:
+...     print(x)
+... 
+Girafe
+
+Tigre
+
+Singe
+
+Souris
+>>> animaux2 = ["poisson","abele","chat"]
+>>> filout = open("zoo2.txt","w")
+>>> for animal in animaux2
+  File "<stdin>", line 1
+    for animal in animaux2
+                          ^
+SyntaxError: expected ':'
+>>> for animal in animaux2:
+...     filout.write(animal)
+... filout.close
+  File "<stdin>", line 3
+    filout.close
+    ^^^^^^
+SyntaxError: invalid syntax
+>>> filout.close()
+>>> for animal in animaux2:
+... quit()
+  File "<stdin>", line 2
+    quit()
+    ^
+IndentationError: expected an indented block after 'for' statement on line 1
+>>> quit()
+admin@MacBook-Air-de-admin TP1 % cat zoo2.txt
+admin@MacBook-Air-de-admin TP1 % python3      
+Python 3.11.5 (main, Aug 24 2023, 15:09:45) [Clang 14.0.3 (clang-1403.0.22.14.1)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> filout = open("zoo2.txt","w")
+>>> for animal in animaux2:
+...     filout.write(animal)
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'animaux2' is not defined
+>>> animaux2= ["possion","abelle","chat"]
+>>> for animal in animaux2:
+...     filout.write(animal)
+... 
+7
+6
+4
+>>> filout.close()
+>>> import math
+>>> x = math.cos(2*math.pi)
+>>> x
+1.0
+>>> def carre(x):
+...     return x*x
+... carre(2)
+  File "<stdin>", line 3
+    carre(2)
+    ^^^^^
+SyntaxError: invalid syntax
+>>> print(carre(2))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'carre' is not defined
+>>> def carre(x):
+...     return x*x
+... 
+>>> carre(2)
+4
+>>> carre(3)
+9
+>>> def produit(x,y):
+...     return x*y
+... 
+>>> produit(2,3)
+6
+>>> produit("to",3)
+'tototo'
+>>> def abs(x):
+...     if x>= 0 :
+...             return x
+...     else :
+...             return -x
+... 
+>>> abs(1)
+1
+>>> abs(-1)
+1
+>>> import numpy
+>>> np.zeros(10)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'np' is not defined
+>>> numpy.zeros(10)
+array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.])
+>>> import numpy as np
+>>> np.zeros(10)
+array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.])
+>>> np.ones(10)
+array([1., 1., 1., 1., 1., 1., 1., 1., 1., 1.])
+>>> np.arange(10)
+array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+>>> np.array([1,2,3,4,5])
+array([1, 2, 3, 4, 5])
+>>> x = np.array([1,2,3,4,5])
+>>> x.sort()
+>>> x
+array([1, 2, 3, 4, 5])
+>>> x.sum()
+15
+>>> x
+array([1, 2, 3, 4, 5])
+>>> x.var()
+2.0
+>>> x.stg()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'numpy.ndarray' object has no attribute 'stg'. Did you mean: 'std'?
+>>> x.std()
+1.4142135623730951
+>>> x.max()
+5
+>>> x.min()
+1
+>>> 
