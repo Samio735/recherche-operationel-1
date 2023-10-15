@@ -16,5 +16,5 @@ Select a TP number :
 
 run an exercise :
 
-```pyhon exo[the exercise number].py```
+```python exo[the exercise number].py```
 
