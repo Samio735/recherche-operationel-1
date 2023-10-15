@@ -2,9 +2,6 @@
 These are exercises in the operational research module in my 3rd year at estin
 
 ## to run the exercises :
-activate the virtual environment :
-
-```source env/bin/activate``` 
 
 Install the required packages : 
 
